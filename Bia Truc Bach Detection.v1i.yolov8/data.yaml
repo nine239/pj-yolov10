@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bia-Truc-Bach']
+
+roboflow:
+  workspace: nhandienbia
+  project: bia-truc-bach-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nhandienbia/bia-truc-bach-detection/dataset/1
